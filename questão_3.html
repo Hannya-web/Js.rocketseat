@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Treinando Javascript.</title>
+</head>
+
+<body>
+    <script>
+        function temHabilidade(skills) {
+            if (skills.indexOf("Javascript") !== -1) {
+                return console.log("Tem a Skill.");
+            } else {
+                console.log("Não tem a Skill.")
+            }
+        };
+        var skills = ["Javascript", "ReactJS", "React Native"];
+        temHabilidade(skills); // true ou false
+    </script>
+</body>
+
+</html>

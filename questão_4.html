@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Treinando Javascript.</title>
+</head>
+
+<body>
+    <script>
+        var anosEstudo = prompt("Digite quantos anos de experiencia tem: ");
+
+        function experiencia(anos) {
+            if (anos <= 1) {
+                return "Iniciante";
+            } else if (anos <= 3) {
+                return "Intermediário";
+            } else if (anos <= 6) {
+                return "Avançado";
+            } else {
+                return "Jedi Master";
+            }
+        }
+        document.writeln(experiencia(anosEstudo));
+    </script>
+</body>
+
+</html>
