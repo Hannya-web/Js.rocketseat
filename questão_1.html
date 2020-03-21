@@ -8,15 +8,18 @@
 
 <body>
     <script>
-        var endereco = {
-            rua: "Rua pedestre J",
-            numero: 148,
-            bairro: "Curió/ Lagoa Redonda",
-            cidade: "Fortaleza",
-            uf: "CE."
-        };
+         function getAddress() {
+            console.log(`O Usuário mora na ${endereco.rua}, no número ${endereco.numero}/ bairro ${endereco.bairro} - ${endereco.cidade}/ ${endereco.uf}`);
+        }
 
-        document.writeln(`O usuário mora na ${endereco.rua}, ${endereco.numero} - ${endereco.bairro}/ ${endereco.cidade}, ${endereco.uf}`);
+        const endereco = {
+            rua: "Rua dos pinheiros",
+            numero: 1293, 
+            bairro: "Centro",
+            cidade: "São Paulo",
+            uf: "SP"
+        };
+        getAddress();
     </script>
 </body>
 
